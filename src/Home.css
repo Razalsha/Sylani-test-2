@@ -1,0 +1,21 @@
+.position-relative {
+    background-image: url('../public/Dr.team.jpg'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixes the image in place */
+    width: 100%;
+    height: 100vh; /* Ensures the container covers the viewport height */
+    overflow: hidden; /* Prevents overflow */
+    position: relative;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+ background-color: rgba(158,158,158,0.5);
+ text-align: center;
+}
